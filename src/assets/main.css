@@ -1,0 +1,27 @@
+@import './base.css';
+@import './helpers.scss';
+
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-weight: normal;
+    background-color: var(--vt-c-white);
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: var(--vt-c-primary);
+}
+main{
+    margin-top: 1rem;
+}
+
+@media (hover: hover) {
+}
+
+@media (min-width: 1024px) {
+    #app main {
+        padding: 2rem;
+    }
+}

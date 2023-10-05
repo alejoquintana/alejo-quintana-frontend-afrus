@@ -1,0 +1,42 @@
+/* Clases de css globales para editar rapidamente el estilo de algunos elementos */
+
+.text-center{
+    text-align: center;
+}
+.bg-secondary {
+    background-color: var(--vt-c-secondary);
+}
+
+.container-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    //justify-content: center;
+}
+.w-100{
+    width: 100%;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.text-light {
+    color: var(--vt-c-text-light-2);
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: var(--vt-c-primary) !important;
+    border: 1px solid var(--vt-c-primary) !important;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+}
